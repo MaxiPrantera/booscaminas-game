@@ -1,0 +1,83 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+.text-center{
+  text-align: center;
+}
+.flex{
+  display: flex;
+}
+.w-8{
+  width: 2rem;
+}
+.h-8{
+  height: 2rem;
+}
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.border{
+  border-width: 1px;
+  border-style: solid;
+}
+.justify-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.font-bold{
+  font-weight: 700;
+}
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.opacity{
+  opacity: 70;
+}
+.leading{
+  line-height: 1.5;
+}
+.h-full{
+  height: 100%;
+}
+.w-full{
+  width: 100%;
+}
+.gap-4{
+  gap: 1rem;
+}
+.button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.flex-col{
+  flex-direction: column;
+}
